@@ -1,0 +1,30 @@
+{
+  "name": "bigoldtweets",
+  "version": "1.0.0",
+  "description": "Twitter bot to find big events from the early days of Twitter",
+  "main": "bot.js",
+  "dependencies": {
+    "twit": "^2.2.5",
+    "webshot": "^0.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mutantlog/bigoldtweets.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "veryoldtweets",
+    "bigiftrue"
+  ],
+  "author": "Ryan Bayne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mutantlog/bigoldtweets/issues"
+  },
+  "homepage": "https://github.com/mutantlog/bigoldtweets#readme"
+}
