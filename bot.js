@@ -18,7 +18,7 @@ var strings = [ // And an array of a bunch of Tweets for the bot to post
 var my_account_name; 
 T.get('account/verify_credentials', { skip_status: true })
   .catch(function (err) {
-    console.log('caught error', err.stack)
+    console.log('caught error', err.stack);
   })
   .then(function (result) {
     // `result` is an Object with keys "data" and "resp".
